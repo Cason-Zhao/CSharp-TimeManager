@@ -44,10 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum\TaskLibraryTypeEnum.cs" />
+    <Compile Include="TaskLibrary.cs" />
     <Compile Include="TaskCmd.cs" />
     <Compile Include="Util\Extension\EnumExtension.cs" />
     <Compile Include="Enum\TaskStatusEnum.cs" />
-    <Compile Include="Enum\TimeSliceType.cs" />
+    <Compile Include="Enum\TimeSliceTypeEnum.cs" />
     <Compile Include="Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\Helper\FileHelper.cs" />
